@@ -1,7 +1,7 @@
 #
 # Translation of cairo-ft.h 
 # by Jeffrey Pohlmeyer 
-# updated to version 1.4 by Luiz Américo Pereira Câmara 2007
+# updated to version 1.4 by Luiz Amï¿½rico Pereira Cï¿½mara 2007
 #
 
 import 
@@ -21,7 +21,7 @@ include "cairo_pragma.nim"
 #
 
 type 
-  FcPattern* = Pointer
+  FcPattern* = pointer
   PFcPattern* = ptr FcPattern
 
 proc ft_font_face_create_for_pattern*(pattern: PFcPattern): PFontFace{.libcairo,
