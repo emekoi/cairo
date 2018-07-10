@@ -48,7 +48,7 @@
 #  October 2007
 #
 
-include private/pragmas
+include cairo/private/pragmas
 
 type 
   Status* {.pure.} = enum 
